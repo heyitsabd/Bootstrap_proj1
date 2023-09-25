@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  
+}
+
+button.black-button {
+  background-color: black;
+  color: white;
+}
+
+button.red-button{
+  background-color: red;
+  color: white;
+}
+
+ .nav_bar_styling{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  
+  height: 100vh;
+  overflow: auto;
+}
+
+@media (max-width: 600px) {
+  .nav_bar_styling {
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+  .dash{
+    margin-top:-100vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+  .cust{
+    margin-top:-100vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+  .LogSign{
+    margin-top:-198vh;
+    margin-right: -82%;
+
+  }
+}
